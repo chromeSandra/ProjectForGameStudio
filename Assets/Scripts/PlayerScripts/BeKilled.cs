@@ -2,15 +2,15 @@
 using System.Collections;
 
 public class BeKilled : MonoBehaviour {
-	Animation deathAnimation;
+//	Animation deathAnimation;
 	public AudioClip dieSound;
 	// Use this for initialization
-	void Awake(){
-		deathAnimation = GameObject.Find ("SpartanKing").GetComponent<Animation>();
+	void Start(){
+//		deathAnimation = GameObject.Find ("SpartanKing").GetComponent<Animation>();
 	}
 
 	public void Dying(){
-		deathAnimation.Play ("die");
+//		deathAnimation.Play ("die");
 		AudioSource.PlayClipAtPoint (dieSound, transform.position);
 		StartCoroutine (dieDelay());
 		Destroy (gameObject);

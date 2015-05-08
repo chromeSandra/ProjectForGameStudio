@@ -46,13 +46,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CubeMovement2.cs" />
      <Compile Include="Assets\CubeSpin2.cs" />
+     <Compile Include="Assets\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Scripts\Damage.cs" />
+     <Compile Include="Assets\Scripts\DamageTrashCan.cs" />
+     <Compile Include="Assets\Scripts\DetectPlayer.cs" />
      <Compile Include="Assets\Scripts\EnergyObject.cs" />
+     <Compile Include="Assets\Scripts\EnermyAIPatrol.cs" />
+     <Compile Include="Assets\Scripts\Level0Manager.cs" />
      <Compile Include="Assets\Scripts\LookAt.cs" />
+     <Compile Include="Assets\Scripts\PlayerMovement2.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\BeKilled.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\Energy.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerHealth.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerMovementPhysical.cs" />
+     <Compile Include="Assets\Scripts\Rug.cs" />
+     <Compile Include="Assets\Scripts\Table.cs" />
+     <Compile Include="Assets\Scripts\WinTrigger.cs" />
      <Compile Include="Assets\Terrain\TerrainToolkit\TerrainToolkit.cs" />
      <None Include="Assets\Terrain\TerrainToolkit\Read me.txt" />
      <None Include="Assets\animations time list.txt" />

@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Button.js" />
+     <Compile Include="Assets\CubeMovement.js" />
      <Compile Include="Assets\CubeSpin.js" />
      <Compile Include="Assets\CubeSpinner.js" />
+     <Compile Include="Assets\SteerdCubeMotion.js" />
      <Compile Include="Assets\Terrain\TerrainToolkit\TerrainToolkitEnums.js" />
      <None Include="Assets\Terrain\TerrainToolkit\Read me.txt" />
      <None Include="Assets\animations time list.txt" />

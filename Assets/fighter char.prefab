@@ -2017,6 +2017,8 @@ Animation:
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: 57f1f0a88378daa4c8e888199975fc04, type: 3}
   m_Animations:
+  - {fileID: 7400004, guid: ab49a398dd56eb340b1d6a77a2b6e131, type: 3}
+  - {fileID: 7400004, guid: ab49a398dd56eb340b1d6a77a2b6e131, type: 3}
   - {fileID: 7400000, guid: 57f1f0a88378daa4c8e888199975fc04, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1

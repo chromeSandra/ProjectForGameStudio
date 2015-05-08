@@ -6,7 +6,7 @@ public class PlayerHealth : MonoBehaviour {
 	public float health = 100f;
 	public AudioClip beHitclip;
 	
-	public void beHit(float amount)
+	public void Damage(float amount)
 	{
 		health -= amount;
 		AudioSource.PlayClipAtPoint (beHitclip, transform.position);

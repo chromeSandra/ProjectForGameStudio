@@ -7,7 +7,7 @@ public class EnergyObject : MonoBehaviour {
 	public AudioClip refillEnergy;
 	// Use this for initialization
 	void Start () {
-		ener = GameObject.FindGameObjectWithTag ("Player").GetComponent<Energy> ();
+		ener = GameObject.Find ("Player").GetComponent<Energy> ();
 	}
 	
 	// Update is called once per frame
